@@ -195,11 +195,12 @@ print(test)
 
 plt.imshow(test)
 plt.colorbar()
-plt.show()
+# plt.show()
+plt.savefig("~/Graph.jpg")
 
 out_img = Image.fromarray(predictions)
-out_img.save("PooPoo.jpg")
-img.show()
+out_img.save("~/PooPoo.jpg")
+# img.show()
 print("DONE\n")
 
 
